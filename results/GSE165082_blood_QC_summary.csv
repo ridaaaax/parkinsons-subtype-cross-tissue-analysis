@@ -1,0 +1,9 @@
+metric,value
+genes_before_filtering,63677.0
+genes_after_filtering,13884.0
+genes_removed,49793.0
+number_of_samples,26.0
+PD_samples,12.0
+control_samples,14.0
+PC1_variance_percent,60.07465192209773
+PC2_variance_percent,10.773388696450379
