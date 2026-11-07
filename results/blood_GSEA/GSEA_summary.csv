@@ -1,0 +1,7 @@
+"model","collection","significant_pathways_FDR_0.05"
+"nonTMM","GO_BP",348
+"TMM","GO_BP",396
+"nonTMM","Hallmark",8
+"TMM","Hallmark",16
+"nonTMM","Reactome",45
+"TMM","Reactome",97

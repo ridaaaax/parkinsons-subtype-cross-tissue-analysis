@@ -1,0 +1,10 @@
+metric,value
+brain_signature_genes,42
+blood_genes_before_filtering,63677
+blood_genes_after_filtering,13884
+blood_genes_tested_by_limma,13884
+signature_genes_present_in_raw_counts,42
+signature_genes_passing_CPM_filter,11
+signature_genes_present_in_limma,11
+signature_genes_removed_by_CPM_filter,31
+signature_genes_not_found_in_raw_counts,0

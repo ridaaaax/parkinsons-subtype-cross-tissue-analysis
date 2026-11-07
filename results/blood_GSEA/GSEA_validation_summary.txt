@@ -1,0 +1,51 @@
+BLOOD GSEA VALIDATION SUMMARY
+
+Primary model: TMM-normalised voom
+Sensitivity model: non-TMM voom
+
+Gene set collections:
+- Hallmark
+- Reactome
+- GO Biological Process
+
+GSEA method:
+fgseaMultilevel
+minSize = 15
+maxSize = 500
+eps = 0
+nPermSimple = 10000
+
+TMM validation:
+Total pathways: 4347
+Finite log2err estimates: 4347
+Missing log2err estimates: 0
+Maximum log2err: 0.887075
+Significant pathways (FDR < 0.05): 509
+
+Significant TMM pathways:
+Hallmark: 16
+Reactome: 97
+GO Biological Process: 396
+
+Non-TMM validation:
+Uncalculated p-values:
+Hallmark: 1
+Reactome: 14
+GO Biological Process: 3
+
+Unavailable log2err estimates:
+Hallmark: 1
+Reactome: 14
+GO Biological Process: 4
+
+Interpretation:
+TMM results are the primary pathway-enrichment results.
+Non-TMM results are retained as sensitivity analysis.
+Pathways with NA p-values or adjusted p-values are not
+interpreted as statistically significant.
+
+Limitations:
+Blood samples were not classified into brain-derived
+Parkinson's disease subtypes.
+Individual age, sex and RIN covariates were unavailable.
+Pathway enrichment does not establish pathway activation.

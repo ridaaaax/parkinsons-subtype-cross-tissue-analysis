@@ -1,0 +1,9 @@
+metric,value
+brain_signature_genes,42.0
+matched_genes,11.0
+mean_absolute_t,0.6450352347987781
+median_absolute_t,0.47336840309611
+positive_t,7.0
+negative_t,4.0
+permutation_p,0.9995000499950005
+background_genes,13884.0

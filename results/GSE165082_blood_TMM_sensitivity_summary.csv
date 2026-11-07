@@ -1,0 +1,14 @@
+"metric","value"
+"genes_tested",13884
+"samples",26
+"PD_samples",12
+"control_samples",14
+"positive_t_original",12648
+"negative_t_original",1236
+"positive_t_TMM",7432
+"negative_t_TMM",6452
+"median_t_original",1.3787424000736
+"median_t_TMM",0.173253802209915
+"correlation_original_vs_TMM_t",0.92022900248748
+"significant_genes_original",0
+"significant_genes_TMM",0

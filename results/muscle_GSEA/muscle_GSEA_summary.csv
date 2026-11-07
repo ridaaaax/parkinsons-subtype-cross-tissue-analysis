@@ -1,0 +1,4 @@
+"collection","pathways_tested","significant_FDR_0.05","positive_NES","negative_NES","uncalculated_p_values","uncalculated_log2err"
+"Hallmark",50,6,3,46,1,1
+"Reactome",991,59,54,935,2,2
+"GO_BP",3416,62,205,3203,8,8
