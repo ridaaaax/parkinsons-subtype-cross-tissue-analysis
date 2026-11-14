@@ -69,16 +69,18 @@ The count data were filtered, normalised using the trimmed mean of M-values (TMM
 
 ### 3. Skeletal muscle
 
+The analysed count matrix contained 36 skeletal muscle samples:
+
+- 12 Parkinson's disease samples.
+- 12 older control samples.
+- 12 young control samples.
+
+The primary differential-expression comparison included 12 Parkinson's disease samples and 12 older controls. Young controls were excluded to focus on the comparison between PD and age-comparable older adults.
+
+The study describes the older control group as age- and sex-matched to the PD group. However, explicit individual pair identifiers were not available in the GEO sample metadata. The primary analysis therefore used an unpaired group comparison.
+
 **GEO accession:** GSE128177
 **Tissue:** Skeletal muscle
-
-The analysis compared:
-- 6 Parkinson's disease samples.
-- 6 older control samples.
-
-Younger controls were excluded from this comparison to focus the analysis on older controls.
-
-The data were filtered using counts per million (CPM), log-transformed and analysed using the limma empirical Bayes framework.
 
 ## Analytical Workflow
 
@@ -147,7 +149,7 @@ Direct gene-set enrichment analysis did not identify statistically significant e
 
 Of the 42 genes distinguishing PDC1 from PDC2, 11 passed expression filtering in each peripheral tissue. None was individually significant after FDR correction.
 
-The six highlighted PDC2-associated inflammatory genes also showed no individually significant differential expression after multiple-testing correction in either tissue.
+The six highlighted PDC2-associated inflammatory genes showed no individually significant differential expression after FDR correction in blood. In skeletal muscle, four genes passed the expression filter, and none was FDR-significant; P2RX7 and C3AR1 did not pass the expression filter and were therefore not included in the muscle differential-expression testing.
 
 ### 2. Immune-related pathway findings
 
@@ -233,6 +235,16 @@ parkinsons-subtype-cross-tissue-analysis/
 ```
 
 *Note: This is a high-level representation of the repository. Additional data and result files are present in the corresponding directories.*
+
+## Researcher’s Contribution
+
+This project was self-directed as an exploratory bioinformatics investigation. I formulated the research question around the extent to which brain-defined Parkinson’s disease subtype signatures may be represented in peripheral tissues.
+
+I examined the original subtype study and its supplementary gene sets, identified publicly available blood and skeletal muscle transcriptomic datasets, and conducted metadata assessment, expression filtering, differential-expression analysis and gene-set enrichment analysis using Python and R-based workflows.
+
+I then integrated the results across tissues, examining immune-related pathway overlaps and contrasting mitochondrial enrichment patterns. An important part of the work involved evaluating non-significant findings, identifying limitations in dataset metadata and sample comparability, and distinguishing descriptive overlap from statistically supported evidence.
+
+The project documents the analytical decisions, limitations and interpretation of results, including approaches explored during its development.
 
 ## Limitations
 
